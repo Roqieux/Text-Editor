@@ -1,7 +1,7 @@
 {
   "name": "jate",
   "version": "1.0.0",
-  "description": "",
+  "description": "A Text editor which meets and exemplifies the requirements for a PWA and utilizes data persistence techniques",
   "main": "server.js",
   "scripts": {
     "start:dev": "concurrently \"cd server && npm run server\" \"cd client && npm run dev\"",
@@ -12,8 +12,8 @@
     "client": "cd client && npm start"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Roqieux",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.17.1",
     "if-env": "^1.0.4"
